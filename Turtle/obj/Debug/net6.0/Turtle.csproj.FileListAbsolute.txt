@@ -1,0 +1,15 @@
+C:\Users\Anon\source\repos\Turtle\Turtle\bin\Debug\net6.0\Turtle.exe
+C:\Users\Anon\source\repos\Turtle\Turtle\bin\Debug\net6.0\Turtle.deps.json
+C:\Users\Anon\source\repos\Turtle\Turtle\bin\Debug\net6.0\Turtle.runtimeconfig.json
+C:\Users\Anon\source\repos\Turtle\Turtle\bin\Debug\net6.0\Turtle.dll
+C:\Users\Anon\source\repos\Turtle\Turtle\bin\Debug\net6.0\Turtle.pdb
+C:\Users\Anon\source\repos\Turtle\Turtle\obj\Debug\net6.0\Turtle.csproj.AssemblyReference.cache
+C:\Users\Anon\source\repos\Turtle\Turtle\obj\Debug\net6.0\Turtle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anon\source\repos\Turtle\Turtle\obj\Debug\net6.0\Turtle.AssemblyInfoInputs.cache
+C:\Users\Anon\source\repos\Turtle\Turtle\obj\Debug\net6.0\Turtle.AssemblyInfo.cs
+C:\Users\Anon\source\repos\Turtle\Turtle\obj\Debug\net6.0\Turtle.csproj.CoreCompileInputs.cache
+C:\Users\Anon\source\repos\Turtle\Turtle\obj\Debug\net6.0\Turtle.dll
+C:\Users\Anon\source\repos\Turtle\Turtle\obj\Debug\net6.0\refint\Turtle.dll
+C:\Users\Anon\source\repos\Turtle\Turtle\obj\Debug\net6.0\Turtle.pdb
+C:\Users\Anon\source\repos\Turtle\Turtle\obj\Debug\net6.0\Turtle.genruntimeconfig.cache
+C:\Users\Anon\source\repos\Turtle\Turtle\obj\Debug\net6.0\ref\Turtle.dll
