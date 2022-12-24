@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 // See https://aka.ms/new-console-template for more information
 
 
-// 1. Draw a Shape
+//  1. Draw a Shape
 Console.WriteLine("    /----    /");
 Console.WriteLine("   /|   |   /");
 Console.WriteLine("  / |   |  /");
@@ -21,16 +21,16 @@ Console.WriteLine("/___|___|/");
 
 
 
-//2. ADD VARIABLES and types untill 29:45
+//  2. ADD VARIABLES and types untill 29:45
 string name = "Andgoedu";
 int age = 24;
 
 Console.WriteLine("My name is " + name);
-Console.WriteLine("I am " + age + "years old" );
+Console.WriteLine("I am " + age + "years old");
 Console.WriteLine("And i like variables that are named after me");
 Console.WriteLine("Which is " + name);
 
-//3. DATA TYPES AND STORING INTO VARS
+//  3. DATA TYPES AND STORING INTO VARS
 
 string text = "ANDGOEDU !"; // string
 char grade = 'A'; // only just a single charachter
@@ -58,7 +58,7 @@ Console.WriteLine(text.Substring(5, 3)); // PRINTS ALSO EDU  only the 3 characht
 
 
 
-//5. Working With Numbers
+//  5. Working With Numbers
 int start = 0;
 int point = 1;
 point++; // increment
@@ -78,7 +78,7 @@ Console.WriteLine(Math.Max(5, 50)); // Max Value
 Console.WriteLine(Math.Min(5, 20)); // Min Value
 
 
-// 6. GET USER INPUT 
+//  6. GET USER INPUT 
 Console.Write("Kindly , Enter your name: ");
 string userName = Console.ReadLine(); // Data stored into the name variable
 Console.Write("Enter your age Please : ");
@@ -86,7 +86,7 @@ string userAge = Console.ReadLine();
 Console.WriteLine("Hello " + userName + " your " + userAge + " years old !");
 
 
-//7. Building a Calculator 
+//  7. Building a Calculator 
 
 int num = Convert.ToInt32("45"); // Converts string to integer // dont add any other charachters than numbers in between " " or it will not work will throw an error for format
 Console.WriteLine(num + 6);
@@ -99,23 +99,24 @@ double num2 = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine(num1 * num2);
 
 
-//8 . Create A MadLib Game
-// Enter Random Words and Sprinkle them randomly into a story
+//  8. Create A MadLib Game Untill 01:21:16 
+//  Enter Random Words and Sprinkle them randomly into a story
 
 string color, pluralNoun, celebrity;
 
 Console.Write("Enter A Color : ");
 color = Console.ReadLine();
-Console.Write("Enter A pluralNoun : ");
+Console.Write("Enter A plural Noun : ");
 pluralNoun = Console.ReadLine();
-Console.Write("Enter A celebrity: ");
+Console.Write("Enter A celebrity name : ");
 celebrity = Console.ReadLine();
-Console.WriteLine("Roses are "  + color);
+
+Console.WriteLine("Roses are " + color);
 Console.WriteLine("Violets are " + pluralNoun);
 Console.Write("I love " + celebrity);
 
 
-
+//  9. Arrays
 
 Console.ReadLine();            // Makes Console stay open to ReadLine
 
@@ -125,7 +126,7 @@ namespace Turtle
     class Program
     {
         static void Main(string[] args)
-            // Main is a method or a function which is another container for code 
+        // Main is a method or a function which is another container for code 
         {
 
 
@@ -133,5 +134,6 @@ namespace Turtle
 
 
         }
+
     }
 }
