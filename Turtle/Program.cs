@@ -116,7 +116,11 @@ Console.WriteLine("Violets are " + pluralNoun);
 Console.Write("I love " + celebrity);
 
 
-//  9. Arrays
+//  9. Arrays for large amounts of data
+
+int[] luckyNumbers = {5, 7 , 7 ,12 , 16 , 28 };
+
+Console.WriteLine(luckyNumbers[0]);
 
 Console.ReadLine();            // Makes Console stay open to ReadLine
 
