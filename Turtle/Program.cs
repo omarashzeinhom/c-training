@@ -99,7 +99,20 @@ double num2 = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine(num1 * num2);
 
 
+//8 . Create A MadLib Game
+// Enter Random Words and Sprinkle them randomly into a story
 
+string color, pluralNoun, celebrity;
+
+Console.Write("Enter A Color : ");
+color = Console.ReadLine();
+Console.Write("Enter A pluralNoun : ");
+pluralNoun = Console.ReadLine();
+Console.Write("Enter A celebrity: ");
+celebrity = Console.ReadLine();
+Console.WriteLine("Roses are "  + color);
+Console.WriteLine("Violets are " + pluralNoun);
+Console.Write("I love " + celebrity);
 
 
 
