@@ -376,12 +376,85 @@ while (i <= 5)
 }
  */
 
-for (int i = 1;  i <= 5; i++)
+/*
+ for (int i = 1;  i <= 5; i++)
 {
     Console.WriteLine(i);
     
+};
+
+for ( int i = 0; i <= luckyNumbers.Length; i++)
+{
+    Console.WriteLine(luckyNumbers[i]);
+};
+
+ */
+
+//  19. Building an exponent method to get the power of a number 2 ^ 3 for example 2 x 2 x 2
+// 03:05:00
+static int GetPower(int primaryNumber, int powerNumber)
+{
+    int result = 1;
+
+    for (int i = 0; i < powerNumber; i++)
+    {
+        result = result * primaryNumber;
+    }
+
+
+    return result;
+
+}
+Console.WriteLine(GetPower(3, 2));
+
+
+
+
+
+// 20. 2D Arrays add more commas and it will be 3d array , 4d and so on
+
+int[,] numberGrid = {
+
+{1,2 },
+{3,4 },
+{5,6 },
+
+};
+Console.WriteLine(numberGrid[1, 1]);
+
+
+//21. Comments
+
+//
+
+/**/
+
+
+
+//  22. Exception Handling with try and catch blocks
+try
+{
+    Console.Write("Enter a number:");
+    int numbe1 = Convert.ToInt32(Console.ReadLine());
+    Console.Write("Enter 2nd Number: ");
+    int numbe2 = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine(numbe1 / numbe2);
+}
+catch( DivideByZeroException e)
+{
+    // catch error and write it
+    Console.WriteLine(e.Message);
+}catch(FormatException e)
+{
+    Console.WriteLine(e.Message);
 }
 
+//  23 Classes & Objects
+// Right click a program
+// Add new and select class
+
+//Program cannot divide by 0 
+Console.ReadLine();
 
 
 
@@ -397,7 +470,21 @@ namespace Turtle
         static void Main(string[] args)
         // Main is a method or a function which is another container for code 
         {
+            //23.  an instance of a book object
+            //23.  the class just specifies the object to be used
 
+            Book book1 = new Book();
+            book1.title = "Harry Potter";
+            book1.author = "J.K Rowling";
+            book1.pages = 400;
+
+            Book book2 = new Book();
+            book2.title = "The Power of your subconsicuess mind";
+            book2.author = "Jospeh . E . Murphy";
+            book2.pages = 350;
+
+            Console.WriteLine(book1.pages);
+            Console.WriteLine(book2.author);
 
             Console.ReadLine();            // Makes Console stay open to ReadLine
 
