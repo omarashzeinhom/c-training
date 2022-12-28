@@ -320,9 +320,55 @@ int index = 1;
 while (index <= 5)
 {
     Console.WriteLine(index);
+    // Watch out for infinite loop  dont remove the incrementation or the condition will always be true and print 1 all the time
     index++; //adds 1 to the index increments the value
 
 }
+
+//  17. Guessing Game
+Console.WriteLine("<<<<< Guessing Game >>>>>>");
+
+string secretWord = "streetdog";
+
+string guess = "";
+
+string hint = "st***td*g";
+// limiting the user to three gueses
+int guessCount = 0;
+int guessLimit = 3;
+bool outOfGuesses = false;
+
+while (guess != secretWord)
+{
+    if (guessCount < guessLimit)
+    // if guessCount is less than guessLimit
+    {
+        Console.WriteLine(hint);
+        Console.Write("Enter Guess: ");
+        guess = Console.ReadLine();
+        guessCount++;
+    }else
+    {
+        outOfGuesses = true;
+    }
+ 
+
+}
+if (outOfGuesses)
+{
+    Console.Write("You Lose !");
+
+} else
+{
+    Console.WriteLine("You win !");
+
+}
+
+
+
+
+
+
 
 
 
