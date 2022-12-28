@@ -312,6 +312,20 @@ static string GetDay(int dayNumber)
 //DEBUG SWITCH STATEMENT
 Console.WriteLine(GetDay(0));
 
+
+
+// 16. While Loops
+Console.WriteLine("<<<<<<<<<<<< while Loop >>>>>>>>>");
+int index = 1;
+while (index <= 5)
+{
+    Console.WriteLine(index);
+    index++; //adds 1 to the index increments the value
+
+}
+
+
+
 Console.ReadLine();            // Makes Console stay open to ReadLine
 
 namespace Turtle
