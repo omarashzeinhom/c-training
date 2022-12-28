@@ -472,19 +472,28 @@ namespace Turtle
         {
             //23.  an instance of a book object
             //23.  the class just specifies the object to be used
+            // 24. Constructor Method 
 
-            Book book1 = new Book();
-            book1.title = "Harry Potter";
-            book1.author = "J.K Rowling";
-            book1.pages = 400;
+            // Constructors are used here instead of Object in the following example
+            Book book1 = new Book("Harry Potter","J.K Rowling", 400);
 
-            Book book2 = new Book();
-            book2.title = "The Power of your subconsicuess mind";
-            book2.author = "Jospeh . E . Murphy";
-            book2.pages = 350;
+            Book book2 = new Book("The Power of your subconsicuess mind", "Jospeh . E . Murphy", 200);
+
+            Book book3 = new Book("Example 3", "Author 3", 200);
+            
+            /*
+
+              Book book2 = new Book("Joseph");
+              book2.title = "The Power of your subconsicuess mind";
+              book2.author = "Jospeh . E . Murphy";
+              book2.pages = 350;
+            */
+
 
             Console.WriteLine(book1.pages);
             Console.WriteLine(book2.author);
+
+
 
             Console.ReadLine();            // Makes Console stay open to ReadLine
 
