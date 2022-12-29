@@ -13,6 +13,8 @@ using System.Threading.Tasks;
 
 
 //  1. Draw a Shape
+using Turtle;
+
 Console.WriteLine("    /----    /");
 Console.WriteLine("   /|   |   /");
 Console.WriteLine("  / |   |  /");
@@ -391,7 +393,7 @@ for ( int i = 0; i <= luckyNumbers.Length; i++)
  */
 
 //  19. Building an exponent method to get the power of a number 2 ^ 3 for example 2 x 2 x 2
-// 03:05:00
+//  03:05:00
 static int GetPower(int primaryNumber, int powerNumber)
 {
     int result = 1;
@@ -411,7 +413,7 @@ Console.WriteLine(GetPower(3, 2));
 
 
 
-// 20. 2D Arrays add more commas and it will be 3d array , 4d and so on
+//  20. 2D Arrays add more commas and it will be 3d array , 4d and so on
 
 int[,] numberGrid = {
 
@@ -423,7 +425,7 @@ int[,] numberGrid = {
 Console.WriteLine(numberGrid[1, 1]);
 
 
-//21. Comments
+//  21. Comments
 
 //
 
@@ -449,17 +451,48 @@ catch( DivideByZeroException e)
     Console.WriteLine(e.Message);
 }
 
-//  23 Classes & Objects
+//  23. Classes & Objects
 // Right click a program
 // Add new and select class
 
 //Program cannot divide by 0 
 Console.ReadLine();
 
+//  23.  an instance of a book object
+//  23.  the class just specifies the object to be used
+//  24. Constructor Method 
+
+// Constructors are used here instead of Object in the following example
+Book book1 = new Book("Harry Potter", "J.K Rowling", 400);
+
+Book book2 = new Book("The Power of your subconsicuess mind", "Jospeh . E . Murphy", 200);
+
+Book book3 = new Book("Example 3", "Author 3", 200);
+
+/*
+
+  Book book2 = new Book("Joseph");
+  book2.title = "The Power of your subconsicuess mind";
+  book2.author = "Jospeh . E . Murphy";
+  book2.pages = 350;
+*/
+
+
+Console.WriteLine(book1.pages);
+Console.WriteLine(book2.author);
+
+// STUDENT EXAMPLE 
+//  25. Object Methods
+
+Student student1 = new Student("John Doe", "Arts", 2.7);
+
+Student student2 = new Student("Jane Doe", "Business", 3.8);
+
+Console.WriteLine(student1.hasHonors());
+Console.WriteLine(student2.hasHonors());
 
 
 
-Console.ReadLine();            // Makes Console stay open to ReadLine
 
 namespace Turtle
 {   // class is just a  container for all the code to be executed
@@ -470,30 +503,7 @@ namespace Turtle
         static void Main(string[] args)
         // Main is a method or a function which is another container for code 
         {
-            //23.  an instance of a book object
-            //23.  the class just specifies the object to be used
-            // 24. Constructor Method 
-
-            // Constructors are used here instead of Object in the following example
-            Book book1 = new Book("Harry Potter","J.K Rowling", 400);
-
-            Book book2 = new Book("The Power of your subconsicuess mind", "Jospeh . E . Murphy", 200);
-
-            Book book3 = new Book("Example 3", "Author 3", 200);
-            
-            /*
-
-              Book book2 = new Book("Joseph");
-              book2.title = "The Power of your subconsicuess mind";
-              book2.author = "Jospeh . E . Murphy";
-              book2.pages = 350;
-            */
-
-
-            Console.WriteLine(book1.pages);
-            Console.WriteLine(book2.author);
-
-
+          
 
             Console.ReadLine();            // Makes Console stay open to ReadLine
 
